@@ -335,7 +335,7 @@ ul{
 }
 /*----------all products page----------*/
 .row-2{
-    justify-content: space-between;
+    justify-content: center;
 }
 select{
     border: 1px solid #ff523b;
@@ -513,6 +513,10 @@ th:last-child{
     }
     .cart-info p{
         display: none;
+    }
+    .small-container{
+        display: inline-block;
+        align-items: center;
     }
 }
 
