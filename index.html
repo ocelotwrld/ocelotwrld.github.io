@@ -2,210 +2,507 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OcelotStores</title>
+    <title>Ocelot-stores</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="IMG/Ocelot logo 3.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
-
-<div class="header">
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <a href="index.html"><img src="Images/Logo.png" alt="" width="125px"></a>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="IMG/Ocelot logo 1.png" width="169px4" height="50px" alt="ocelot-stores"></a>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <a href="index.html"><i class="fas fa-home"></i><span class="item-name">Home</span></a></li>
+                        <a href="#Products"><i class="fas fa-shopping-cart"></i><span class="item-name">Products</span></a></li>
+                        <a href="#Contacts"><i class="fas fa-user"></i><span class="item-name">Contacts</span></a></li>
+                        <a href="#advertise"><i class="fas fa-bullhorn"></i><span class="item-name">Advert</span></a></li>
+                        <a href="https://wa.me/+2347048128511"><i class="fab fa-whatsapp"></i><span class="item-name">Chat</span></a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="product.html">Products</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#account">Account</a></li>
-                </ul>
-            </nav>
-            <a href="cart.html"><img src="Images/cart logo.png" alt="" width="30px" height="30px" class="cart-logo"></a>
-            <img src="Images/menu icon.png" alt="" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
         </div>
+        <hr>
         <div class="row">
             <div class="col-2">
                 <h1>UPGRADE YOUR DECOR<br>With our 3D wall Clocks</h1>
-            <p>Find unique 3D clocks to elevate any space.
-                <br>Explore and order today for fast, secure delivery to your door.</p>
-                </script>
-            <a href="product.html" class="btn">Explore Now &#8594;</a>
+                <p>Find Unique 3D Clocks to Elevate any Space<br>Explore and Order today for Fast and Secure Delivery to your door.</p>
+                <a href="#Products" class="btn">Products &#8594;</a>
             </div>
-        <div class="col-2">
-            <img src="Images/Background.png" alt=""> 
+            <div class="col-2">
+                <img src="IMG/Background.png" alt="ocelotstores Background image">
+            </div>
         </div>
+    </div>
+
+    <!---------Featured Products------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="IMG/ocelot stores (1).jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="IMG/ocelot stores (2).jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="IMG/ocelot stores (3).jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----Featured Products----->
+<div class="small-container">
+    <h2 class="title" id="Products">Ocelot 3D Clocks</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="product-details-1.html"><img src="IMG/ocelot 3d clock 1.png" alt=" 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦5,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-2.html"><img src="IMG/ocelot 3d clock 2.png" alt=" 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦5,500)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-3.html"><img src="IMG/ocelot 3d clock 3.png" alt=" 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦5,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-4.html"><img src="IMG/ocelot 3d clock 4.png" alt=" 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦7,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-5.html"><img src="IMG/ocelot 3d clock 5.png" alt=" 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦5,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-6.html"><img src="IMG/ocelot 3d clock 6.png" alt=" 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦5,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-7.html"><img src="IMG/ocelot 3d clock 7.png" alt=" 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦10,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-8.html"><img src="IMG/ocelot 3d clock 8.jpg" alt=" 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦10,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-9.html"><img src="IMG/ocelot 3d clock 9.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦5,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-10.html"><img src="IMG/ocelot 3d clock 10.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦5,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-11.html"><img src="IMG/ocelot 3d clock 11.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦8,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-12.html"><img src="IMG/ocelot 3d clock 12.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦6,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-13.html"><img src="IMG/ocelot 3d clock 13.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦15,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-14.html"><img src="IMG/ocelot 3d clock 14.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦5,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-15.html"><img src="IMG/ocelot 3d clock 15.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦14,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-16.html"><img src="IMG/ocelot 3d clock 16.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦15,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-17.html"><img src="IMG/ocelot 3d clock 17.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦20,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-18.html"><img src="IMG/ocelot 3d clock 18.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price">(₦15,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-19.html"><img src="IMG/ocelot 3d clock 19.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦10,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-20.html"><img src="IMG/ocelot 3d clock 20.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦6,000)</span>
+            </div>
+        </div>
+        
+        <div class="col-4">
+            <a href="product-details-21.html"><img src="IMG/ocelot 3d clock 21.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦9,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-22.html"><img src="IMG/ocelot 3d clock 22.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="price">(₦9,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-24.html"><img src="IMG/ocelot 3d clock 24.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦8,000)</span>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="product-details-25.html"><img src="IMG/ocelot 3d clock 25.png" alt="ocelot 3d clock"></a>
+            <div class="rating" id="product-1-rating">
+                <span class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                <span class="price">(₦9,000)</span>
+            </div>
         </div>
     </div>
 </div>
 
-<!------ featured categories ------>
 
-
-<div class="categories">
+<!-----Testimonies----->
+<div class="testimonial">
     <div class="small-container">
         <div class="row">
             <div class="col-3">
-                <img src="Images/Product (11).jpeg" alt="">
-            </div>
-            <div class="col-3">
-                <img src="Images/Product (10).jpeg" alt="">
-            </div>
-            <div class="col-3">
-                <img src="Images/Product (4).jpg" alt="">
-            </div>
-        </div>
-    </div>
-   
-</div>
-
-<!------ all product ------>
-<div class="small-container">
-    <h2 class="title">All Product</h2>
-    <div class="row">
-        <div class="col-4">
-            <a href="product-details-1.html"><img src="Images/Product (1).jpg" alt=""></a>
-            <h4>Leaf Design 3d Wall Clock</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-            </div>
-            <p>N5,000.00</p>
-            <a href="#order" class="btn">Order Now!</a>
-          </div>
-         <div class="col-4">
-            <a href="product-details-2.html"><img src="Images/product (2).jpg" alt=""></a>
-            <h4>Star and Fairly 3d Wall Clock</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>N5,500.00</p>
-            <a href="#order" class="btn">Order Now!</a>
-         </div>
-         <div class="col-4">
-            <a href="product-details-3.html"><img src="Images/Product (3).jpeg" alt=""></a>
-            <h4>Fairly Princess 3d Wall Clock</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-            </div>
-            <p>N8,000.00</p>
-            <a href="#order" class="btn">Order Now!</a>
-         </div>
-         <div class="col-4">
-            <a href="product-details-4.html"><img src="Images/Product (4).jpg" alt=""></a>
-            <h4>Butterfly 3d Wall Clock</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-            </div>
-            <p>N10,000.00</p>
-            <a href="#order" class="btn">Order Now!</a>
-        </div>
-
-    <div class="row">
-        <div class="col-4">
-            <a href="product-details-5.html"><img src="Images/Product (5).jpeg" alt=""></a>
-            <h4>Spiral Numeric 3d Wall Clock</h4>
-            <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-                </div>
-                <p>N5,000.00</p>
-                <a href="#order" class="btn">Order Now!</a>
-                </div>
-            <div class="col-4">
-                <a href="product-details-6.html"><img src="Images/Product (6).jpeg" alt=""></a>
-                <h4>Tree Shaped Wall Clock </h4>
+                <i class="fa fa-quote-left"></i>
+                <p>I bought a 3d clock as a gift for my friend, and he absolutely loves it. The clock is not only beautiful, but it's also very functional and easy to set up.</p>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star"></i>
                 </div>
-                  <p>N2,500.00</p>
-                  <a href="#order" class="btn">Order Now!</a>
-                  </div>
-                  <div class="col-4">
-                    <a href="product-details-7.html"><img src="Images/Product (7).jpeg" alt=""></a>
-                    <h4>Apple Shape 3d Wall Clock</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p>N3,500.00</p>
-                    <a href="#order" class="btn">Order Now!</a>
-                </div>
-                <div class="col-4">
-                    <a href="product-details-8.html"><img src="Images/Product (8).jpeg" alt=""></a>
-                    <h4>Written no. 3d Wall Clock</h4>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                        <i class="fa fa-star-o"></i>
-                    </div>
-                    <p>N4,500.00</p>
-                    <a href="#order" class="btn">Order Now!</a>
-                </div>
+                <img src="IMG/Testimony img (1).jpg" alt="">
+                <h3>Oluchukwu Blessing</h3>
             </div>
-        </div>
-        
-<!--------- offer --------->
-<div class="offer">
-    <div class="small-container">
-        <div class="row">
             <div class="col-3">
-                <img src="Images/Offer.png" alt="" class="offer-img">
+                <i class="fa fa-quote-left"></i>
+                <p>I been no wan buy sha, but after much thought i decided to and i am loving the decision now. Thanks Ocelot!</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
                 </div>
-                <div class="col-2">
-                <p>ORDER ON OCELOTSTORES!!</p>
-                <h1>CUSTOM DESIGNS</h1>
-                <small>Comes in custom designs, sizes and Colors.<br>These are for Hotel receptions and Business offices.</small>
-                <a href="#order" class="btn">Order Now! &#8594;</a>
+                <img src="IMG/Testimony img (2).png" alt="">
+                <h3>Ojei Winifred</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>I've been looking for a unique clock to add some personality to my living room and this website had exactly what I was looking for!</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <img src="IMG/Testimony img (3).png" alt="">
+                <h3>Anyabolu Simdi</h3>
             </div>
         </div>
     </div>
 </div>
 
-<!------- testimonial ------->
-<div class="testimonial">
+
+
+<!------Adverts------>
+<div class="advert">
     <div class="small-container">
-        <h2 class="title">Testimonies</h2>
+        <div class="row">
+            <div class="col-3b">
+                <img src="IMG/mohaco advert.jpg" alt="mohaco">
+            </div>
+            <div class="col-2">
+                <p>JOIN THE CIRCUS!!</p>
+                <h2>Moreno Hairstylist Community</h2>
+                <a href="https://www.facebook.com/profile.php?id=100087442447952" class="btn-moreno">Join Us</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-----Brands-------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <a href="https://wa.me/+2349064955762?text=Hi!%20I%20got%20your%20number%20from%20Ocelot%20Stores.%20Please%20I%20would%20like%20to%20buy..."><img src="IMG/bemec communication.png" alt="Bemec communication"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://wa.me/+2349063364690?text=Hi!%20I%20got%20your%20number%20from%20Ocelot%20Stores.%20Please%20I%20would%20like%20to%20buy..."><img src="IMG/jenny's shawarma.png" alt="jennys shawarma"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.facebook.com/profile.php?id=100087442447952"><img src="IMG/mohaco advert.jpg" alt="mohaco"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://wa.me/+2349115961187?text=Hi!%20I%20got%20your%20number%20from%20Ocelot%20Stores.%20Please%20I%20would%20like%20to%20buy..."><img src="IMG/shantel's delicacy.jpg" alt="shantel delicacy"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://wa.me/+2347048128511?text=Hi!%20I%20got%20your%20number%20from%20Ocelot%20Stores.%20Please%20I%20would%20like%20to%20do%20advert..."><img src="IMG/ocelot advert.jpg" alt="ocelot"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----advert 2------>
+<div class="advert-2">
+    <div class="small-container">
         <div class="row">
             <div class="col-3">
-                <i class="fa fa-quote-left"></i>
-                <p>I bought a 3D clock as a gift for my husband, and he absolutely loves it! The clock is not only 
-                    beautiful, but it's also very functional and easy to set up. The customer service was excellent - 
-                    the website was very responsive to my questions and concerns, and the clock arrived on time and 
-                    in perfect condition. I highly recommend this website to anyone looking for a unique and high-quality 
-                    clock!</p>
+                <img src="IMG/jenny's shawarma.png" alt="jennys shawarma">
+            </div>
+            <div class="col-2">
+                <p>Tasty shawarma</p>
+                <h2>Jenny's Shawarma</h2>
+                <a href="https://wa.me/+2349063364690" class="btn-2">Order Now!</a>
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+<div class="Contacts" id="Contacts">
+    <div class="small-container">
+        <h2 class="title" id="3d-clock">CONTACTS</h2>
+        <h3 class="contact-text">Customer Support: We're here to help!
+            <br>If you're experiencing any issues or have questions regarding our products or services, our dedicated customer support team is just a call away.
+            <br>Feel free to reach out to us for prompt assistance.
+            <br>
+            <br>Contact our Support Hotline:
+            <br>
+            <br>For general inquiries: [Jhaypee]
+            <br>For billing inquiries: [Nifty]
+            <br>For technical assistance: [Bobby]
+            </h3>
+            <br>
+        <div class="row">
+            <div class="col-3">
+                <i class="fa call">&#9742;</i>
+                <h3>07048128511</h3>
                        <div class="rating">
                       <i class="fa fa-star"></i>
                       <i class="fa fa-star"></i>
@@ -213,33 +510,25 @@
                       <i class="fa fa-star"></i>
                       <i class="fa fa-star"></i>
                     </div>
-                    <img src="Images/testimony people (3).jpg" alt="">
-                    <h3>Oluchukwu Okafor</h3>
+                    <img src="IMG/Jhaypee.png" alt="">
+                    <h3>Jhaypee</h3>
                 </div>
                 <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>I was hesitant to purchase a clock online, but I'm so glad I did! The 3D clock
-                         I received from this website is even more stunning in person than it looked on the website.
-                          <br>The attention to detail is amazing, and the clock keeps perfect time. 
-                          I've received so many compliments on it already, and I'll definitely be recommending this 
-                          website to my friends and colleagues!</p>
+                    <i class="fa call">&#9742;</i>
+                    <h3>09064955762</h3>
                            <div class="rating">
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star"></i>
                           <i class="fa fa-star"></i>
-                          <i class="fa fa-star-half-o"></i>
+                          <i class="fa fa-star"></i>
                         </div>
-                        <img src="Images/testimony people (5).jpg" alt="">
-                        <h3>Onu Izuchukwu</h3>
+                        <img src="IMG/Niffty.png" alt="">
+                        <h3>Nifty</h3>
                     </div>
                     <div class="col-3">
-                        <i class="fa fa-quote-left"></i>
-                        <p>I've been looking for a unique clock to add some personality to my living room, 
-                            and this website had exactly what I was looking for! The 3D clock I purchased is a real 
-                            conversation starter-everyone who sees it wants to know where I got it. 
-                            The ordering process was easy, quickly arrived and in perfect condition. 
-                            I'm extremely satisfied with my purchase and would definitely shop here again!</p>
+                        <i class="fa call">&#9742;</i>
+                        <h3>09139143159</h3>
                                <div class="rating">
                               <i class="fa fa-star"></i>
                               <i class="fa fa-star"></i>
@@ -247,34 +536,15 @@
                               <i class="fa fa-star"></i>
                               <i class="fa fa-star"></i>
                             </div>
-                            <img src="Images/testimony people (2).jpg" alt="">
-                            <h3>Ojei Winifred</h3>
+                            <img src="IMG/bobby.jpg" alt="">
+                            <h3>Bobby</h3>
                         </div>
             </div>
         </div>
 </div>
 
-<!---------- brands --------->
-<div class="brands">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-5">
-                <img src="Images/sponsors (1).png" alt="">
-            </div>
-            <div class="col-5">
-                <img src="Images/sponsors (3).png" alt="">
-            </div>
-            <div class="col-5">
-                <img src="Images/sponsors (1).jpeg" alt="">
-            </div>
-            <div class="col-5">
-                <img src="Images/sponsors (2).png" alt="">
-            </div>
-            <div class="col-5">
-                <img src="Images/sponsors (2).jpeg" alt="">
-            </div>
-        </div>
-    </div>
+<div class="small-container" id="advertise">
+    <a href="https://wa.me/+2347048128511?text=Hi!%20Please%20I%20would%20like%20to%20advertise%20with%20your%20Website." class="btn-3">ADVERTISE HERE</a>
 </div>
 
 <!---------- footer --------->
@@ -284,50 +554,25 @@
             <div class="footer-col-1">
                 <h3>DOWNLOAD OUR APP</h3>
                 <div class="app-logo">
-                    <a href="#andriod-app"><img src="Images/App logo (1).png" alt=""></a>
-                    <a href="#ios-app"><img src="Images/App logo (2).png" alt=""></a> 
+                    <a href="#andriod-app"><img src="IMG/App logo (1).png" alt=""></a>
+                    <a href="#ios-app"><img src="IMG/App logo (2).png" alt=""></a> 
                 </div>
-            </div>
-            <div class="footer-col-2">
                 <h3>FOLLOW US</h3>
                 <div class="social-media">
-                    <a href="https://tiktok.com/@j.haypee"><img src="Images/Social media (1).png" alt=""></a>
-                    <a href="https://instagram.com/j.haypee"><img src="Images/Social media (2).png" alt=""></a>
-                    <a href="https://www.facebook.com/profile.php?id=100088035327391"><img src="Images/Social media (3).png" alt=""></a>
-                    <a href="https://wa.me/message/VITTKXRB4EQUF1"><img src="Images/Social media (4).png" alt=""></a>
+                    <a href="https://tiktok.com/@j.haypee"><img src="IMG/Social media (1).png" width="50px" alt=""></a>
+                    <a href="https://instagram.com/j.haypee"><img src="IMG/Social media (2).png" width="50px" alt=""></a>
+                    <a href="https://www.facebook.com/profile.php?id=100088035327391"><img src="IMG/Social media (3).png" width="50px" alt=""></a>
+                    <a href="https://wa.me/message/VITTKXRB4EQUF1"><img src="IMG/Social media (4).png" width="50px" alt=""></a>
                 </div>
-            </div>
-            <div class="footer-col-3">
-                <a href="index.html"> <img src="Images/Logo.png" alt=""></a>
+                <a href="index.html"> <img src="IMG/Ocelot logo 3.png" width="200px" height="150px" alt=""></a>
                 <p>Time is a precious commodity. Make every second count with our stunning 3D clocks</p>
             </div>
         </div>
-        <hr>
-        <p class="copyright">WEB-DESIGN 07048128511 &#9742;</p>
     </div>
+    <hr>
+    <p class="copyright">WEB-DESIGN 07048128511 &#9742;</p>
 </div>
 
-<!--------------link to js file-------->
-
-<script src="script.js"></script>
-
-<!-----------js for toggle menu--------->
-
-<script>
-    var MenuItems =document.getElementById("MenuItems");
-
-    MenuItems.style.maxHeight = "0px";
-    function menutoggle(){
-        if(MenuItems.style.maxHeight == "0px")
-        {
-            MenuItems.style.maxHeight = "200px"
-        }
-        else
-        {
-            MenuItems.style.maxHeight = "0px"
-        }
-    }
-</script>
-
+    
 </body>
 </html>
