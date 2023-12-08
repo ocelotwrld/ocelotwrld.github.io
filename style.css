@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 .fas{
-  color: #a437dbff;
+  color: #fff;
 }
 .fab{
-  color: #a437dbff;
+  color: #fff;
 }
 .body{
   display: block;
@@ -45,7 +45,7 @@ a{
   margin-right: 10px;
 }
 a:hover{
-  color: #000;
+  color: #ff0;
 }
 
 /* Media query for screens less than 650px */
@@ -55,13 +55,13 @@ a:hover{
   }
   .fas{
     display: flex;
-    color: #a437dbff;
+    color: #fff;
     width: 20px;
     padding: 10px;
   }
   .fab{
     display: flex;
-    color: #a437dbff;
+    color: #fff;
     padding: 10px;
     width: 20px;
   }
@@ -70,7 +70,7 @@ a:hover{
 
 .header hr{
   border: none;
-  background-color: #a437dbff;
+  background-color: #fff;
   height: 5px;
   margin-top: 55px;
 }
