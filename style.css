@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   padding: 10px;
-  background: black;
+  background: #000;
   position: fixed;
   top: 0;
   width: 100%;
@@ -39,7 +39,7 @@ nav ul li a i {
   }
 a{
   text-decoration: none;
-  color: #a437dbff;
+  color: #fff;
   font-family: arial;
   font-size: medium;
   margin-right: 10px;
